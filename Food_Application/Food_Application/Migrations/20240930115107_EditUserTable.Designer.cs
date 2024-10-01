@@ -4,6 +4,7 @@ using Food_Application.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Food_Application.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240930115107_EditUserTable")]
+    partial class EditUserTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -75,11 +78,16 @@ namespace Food_Application.Migrations
                     b.Property<int?>("UserID")
                         .HasColumnType("int");
 
+                    b.Property<int?>("UserID1")
+                        .HasColumnType("int");
+
                     b.HasKey("ID");
 
                     b.HasIndex("CategoryID");
 
                     b.HasIndex("UserID");
+
+                    b.HasIndex("UserID1");
 
                     b.ToTable("Recipes");
                 });
@@ -113,6 +121,7 @@ namespace Food_Application.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("OtpCode")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("OtpExpiry")
@@ -141,7 +150,7 @@ namespace Food_Application.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Food_Application.Models.UserRecipes", b =>
+            modelBuilder.Entity("Food_Application.Models.UserRoles", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -167,7 +176,7 @@ namespace Food_Application.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("UserRecipes");
+                    b.ToTable("UserRoles");
                 });
 
             modelBuilder.Entity("Food_Application.Models.Recipe", b =>
@@ -182,19 +191,23 @@ namespace Food_Application.Migrations
                         .WithMany("FavoriteRecipes")
                         .HasForeignKey("UserID");
 
+                    b.HasOne("Food_Application.Models.User", null)
+                        .WithMany("Recipes")
+                        .HasForeignKey("UserID1");
+
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("Food_Application.Models.UserRecipes", b =>
+            modelBuilder.Entity("Food_Application.Models.UserRoles", b =>
                 {
                     b.HasOne("Food_Application.Models.Recipe", "Recipe")
-                        .WithMany("UserRecipes")
+                        .WithMany("UserRoles")
                         .HasForeignKey("RecipeID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Food_Application.Models.User", "User")
-                        .WithMany("UserRecipes")
+                        .WithMany("UserRoles")
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -211,14 +224,16 @@ namespace Food_Application.Migrations
 
             modelBuilder.Entity("Food_Application.Models.Recipe", b =>
                 {
-                    b.Navigation("UserRecipes");
+                    b.Navigation("UserRoles");
                 });
 
             modelBuilder.Entity("Food_Application.Models.User", b =>
                 {
                     b.Navigation("FavoriteRecipes");
 
-                    b.Navigation("UserRecipes");
+                    b.Navigation("Recipes");
+
+                    b.Navigation("UserRoles");
                 });
 #pragma warning restore 612, 618
         }

@@ -9,14 +9,14 @@ namespace Food_Application.Models
         public string Email { get; set; }
         public string Phone { get; set; }
         public string Country { get; set; }
-        public bool IsActive { get; set; }
-        public DateTime  CreationAt {  get; set; }
+        public bool IsActive { get; set; } = false;
+        public DateTime  CreationAt {  get; set; } = DateTime.Now;
         public DateTime?  LastLogin { get; set; }
-        public string OtpCode { get; set; }
+        public string? OtpCode { get; set; }
         public DateTime? OtpExpiry { get; set; }
-        public ICollection<Recipe> Recipes { get; set; }
-        public ICollection<UserRoles> UserRoles { get; set; }
-        public ICollection<Recipe> FavoriteRecipes { get; set; }
+        //public ICollection<Recipe>? Recipes { get; set; }
+        public ICollection<UserRecipes>? UserRecipes { get; set; }
+        public ICollection<Recipe>? FavoriteRecipes { get; set; }
         //UserRoles
 
     }

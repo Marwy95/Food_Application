@@ -28,7 +28,7 @@ namespace Food_Application.Controllers
             {
                 return BadRequest();
             }
-            return Ok(ResultViewModel<User>.Sucess(result.Data));
+            return Ok(ResultViewModel<User>.Sucess(result.Data,result.Message));
         }
         [HttpPost]
         public async Task<IActionResult> LoginUser()

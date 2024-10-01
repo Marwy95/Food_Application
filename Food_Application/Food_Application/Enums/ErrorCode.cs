@@ -4,7 +4,13 @@
     {
         NoError,
         //1-100 User
-        PasswordsDontMatch =1
+        UnKnown = 1,
+        PasswordsDontMatch =1,
+            UserNameAlreadyExist = 2,
+        EmailAlreadyExist = 3,
+        WrongPasswordOrEmail=4,
+        EmailIsNotFound =5,
+        UserNameIsNotFound = 6,
 
     }
 }

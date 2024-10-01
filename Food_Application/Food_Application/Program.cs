@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using AutoMapper;
 using Food_Application.Helpers;
 using Food_Application.Profiles;
+using Food_Application.Middlewares;
 
 namespace Food_Application
 {
@@ -32,6 +33,8 @@ namespace Food_Application
             var app = builder.Build();
             //AUTOMAPPER
             MapperHelper.Mapper = app.Services.GetService<IMapper>();
+            //Middlewares
+            app.UseMiddleware<GlobalErrorHandlerMiddleware>();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {

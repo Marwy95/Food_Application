@@ -15,5 +15,15 @@ namespace Food_Application.Data
                .LogTo(log => Debug.WriteLine(log), LogLevel.Information);
           
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.UserName)
+                .IsUnique();
+
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.Email)
+                .IsUnique();
+        }
     }
 }

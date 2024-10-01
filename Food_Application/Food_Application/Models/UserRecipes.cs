@@ -2,7 +2,7 @@
 
 namespace Food_Application.Models
 {
-    public class UserRoles :BaseModel
+    public class UserRecipes :BaseModel
     {
          public int UserID { get; set; }
         public int RecipeID { get; set; }

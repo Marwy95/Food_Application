@@ -6,7 +6,7 @@
         //1-100 User
         UnKnown = 1,
         PasswordsDontMatch =1,
-            UserNameAlreadyExist = 2,
+        UserNameAlreadyExist = 2,
         EmailAlreadyExist = 3,
         WrongPasswordOrEmail=4,
         EmailIsNotFound =5,

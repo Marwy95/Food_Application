@@ -142,3 +142,7 @@ C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\Teams_Projects\Food_Appl
 C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\Teams_Projects\Food_Application\Food_Application\Food_Application\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\Teams_Projects\Food_Application\Food_Application\Food_Application\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\Teams_Projects\Food_Application\Food_Application\Food_Application\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\Teams_Projects\Food_Application\Food_Application\Food_Application\bin\Debug\net8.0\DotNetEnv.dll
+C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\Teams_Projects\Food_Application\Food_Application\Food_Application\bin\Debug\net8.0\Sprache.dll
+C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\Teams_Projects\Food_Application\Food_Application\Food_Application\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\Teams_Projects\Food_Application\Food_Application\Food_Application\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll

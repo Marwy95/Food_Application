@@ -31,9 +31,15 @@ namespace Food_Application.Controllers
             return Ok(ResultViewModel<User>.Sucess(result.Data,result.Message));
         }
         [HttpPost]
-        public async Task<IActionResult> LoginUser()
+        public async Task<IActionResult> LoginUser(LoginUserViewModel viewModel)
         {
-            throw new NotImplementedException();
+            
+            var result = await _mediator.Send(viewModel.MapOne<LoginUserCommand>());
+            if (!result.IsSuccess)
+            {
+                return BadRequest();
+            }
+            return Ok(ResultViewModel<string>.Sucess(result.Data));
         }
         [HttpPut]
         public async Task<IActionResult> ForgetPassword()

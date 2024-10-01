@@ -11,6 +11,7 @@ namespace Food_Application.Profiles
         {
             CreateMap<CreateUserViewModel, RegisterUserDTO>();
             CreateMap<RegisterUserDTO, User>();
+            CreateMap<LoginUserViewModel, LoginUserCommand>();
         }
     }
 }

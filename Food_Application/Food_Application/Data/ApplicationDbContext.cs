@@ -11,9 +11,8 @@ namespace Food_Application.Data
         public DbSet<Category> Categories { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=MSI\\SQLEXPRESS;Database=Food_Application;Trusted_Connection=True;Encrypt=false")
+            optionsBuilder.UseSqlServer(Environment.GetEnvironmentVariable("DATABASE_URL"))
                .LogTo(log => Debug.WriteLine(log), LogLevel.Information);
-          
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

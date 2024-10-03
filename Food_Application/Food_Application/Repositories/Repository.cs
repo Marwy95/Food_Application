@@ -33,6 +33,10 @@ namespace Food_Application.Repositories
         {
             return GetAll().FirstOrDefault(predicate);
         }
+        public bool Any(Expression<Func<T, bool>> predicate)
+        {
+            return GetAll().Any(predicate);
+        }
         public void Update(T entity)
         {
            _context.Update(entity);

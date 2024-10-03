@@ -11,6 +11,7 @@
         WrongPasswordOrEmail=4,
         EmailIsNotFound =5,
         UserNameIsNotFound = 6,
+        WrongOtp = 8,
 
     }
 }

@@ -3,48 +3,60 @@
   "WorkspaceRootPath": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\helpers\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\helpers\\tokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\cqrs\\users\\queries\\getuserbyemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\cqrs\\users\\queries\\getuserbyemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\cqrs\\users\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\cqrs\\users\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\helpers\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\helpers\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\cqrs\\users\\commands\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\cqrs\\users\\commands\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\cqrs\\users\\queries\\getuserbynamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\cqrs\\users\\queries\\getuserbynamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\cqrs\\users\\queries\\isemailexistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\cqrs\\users\\queries\\isemailexistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\cqrs\\users\\queries\\isusernameexistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\cqrs\\users\\queries\\isusernameexistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\cqrs\\users\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\cqrs\\users\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\cqrs\\users\\commands\\verifyaccountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\cqrs\\users\\commands\\verifyaccountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\enums\\errorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\enums\\errorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\viewmodels\\users\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\viewmodels\\users\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\teams_projects\\food_application\\food_application\\food_application\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8D5DD437-EBAB-4D6A-95DB-CE69476F6C15}|Food_Application\\Food_Application.csproj|solutionrelative:food_application\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,94 +78,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginUserCommand.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Commands\\LoginUserCommand.cs",
-              "RelativeDocumentMoniker": "Food_Application\\CQRS\\Users\\Commands\\LoginUserCommand.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Commands\\LoginUserCommand.cs",
-              "RelativeToolTip": "Food_Application\\CQRS\\Users\\Commands\\LoginUserCommand.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T19:57:37.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Program.cs",
-              "RelativeDocumentMoniker": "Food_Application\\Program.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Program.cs",
-              "RelativeToolTip": "Food_Application\\Program.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAgwEgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T19:40:35.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TokenGenerator.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Helpers\\TokenGenerator.cs",
-              "RelativeDocumentMoniker": "Food_Application\\Helpers\\TokenGenerator.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Helpers\\TokenGenerator.cs",
-              "RelativeToolTip": "Food_Application\\Helpers\\TokenGenerator.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Title": "EmailHelper.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Helpers\\EmailHelper.cs",
+              "RelativeDocumentMoniker": "Food_Application\\Helpers\\EmailHelper.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Helpers\\EmailHelper.cs",
+              "RelativeToolTip": "Food_Application\\Helpers\\EmailHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T19:45:11.881Z",
+              "WhenOpened": "2024-10-03T16:19:06.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Food_Application\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Food_Application\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAADwvyQAAAAMAAAA",
+              "Title": "IsEmailExistQuery.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Queries\\IsEmailExistQuery.cs",
+              "RelativeDocumentMoniker": "Food_Application\\CQRS\\Users\\Queries\\IsEmailExistQuery.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Queries\\IsEmailExistQuery.cs",
+              "RelativeToolTip": "Food_Application\\CQRS\\Users\\Queries\\IsEmailExistQuery.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T20:12:58.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterUserCommand.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Commands\\RegisterUserCommand.cs",
-              "RelativeDocumentMoniker": "Food_Application\\CQRS\\Users\\Commands\\RegisterUserCommand.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Commands\\RegisterUserCommand.cs",
-              "RelativeToolTip": "Food_Application\\CQRS\\Users\\Commands\\RegisterUserCommand.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAvwBwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T20:16:43.57Z",
+              "WhenOpened": "2024-10-03T16:17:18.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\.env",
-              "RelativeDocumentMoniker": "Food_Application\\.env",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\.env",
-              "RelativeToolTip": "Food_Application\\.env",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-01T19:24:29.795Z",
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Commands\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "Food_Application\\CQRS\\Users\\Commands\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Commands\\RegisterUserCommand.cs",
+              "RelativeToolTip": "Food_Application\\CQRS\\Users\\Commands\\RegisterUserCommand.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAxwBgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T16:15:43.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Food_Application\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Food_Application\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T16:13:21.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Food_Application\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Food_Application\\Repositories\\Repository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwCMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T16:12:29.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GetUserByEmailQuery.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Queries\\GetUserByEmailQuery.cs",
-              "RelativeDocumentMoniker": "Food_Application\\CQRS\\Users\\Queries\\GetUserByEmailQuery.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Queries\\GetUserByEmailQuery.cs",
-              "RelativeToolTip": "Food_Application\\CQRS\\Users\\Queries\\GetUserByEmailQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAA2wAkAAAASAAAA",
+              "Title": "IsUserNameExistQuery.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Queries\\IsUserNameExistQuery.cs",
+              "RelativeDocumentMoniker": "Food_Application\\CQRS\\Users\\Queries\\IsUserNameExistQuery.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Queries\\IsUserNameExistQuery.cs",
+              "RelativeToolTip": "Food_Application\\CQRS\\Users\\Queries\\IsUserNameExistQuery.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T19:59:38.405Z",
+              "WhenOpened": "2024-10-03T16:09:22.797Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Profiles\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Food_Application\\Profiles\\UserProfile.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Profiles\\UserProfile.cs",
+              "RelativeToolTip": "Food_Application\\Profiles\\UserProfile.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:49:16.082Z"
             },
             {
               "$type": "Document",
@@ -163,49 +174,83 @@
               "RelativeDocumentMoniker": "Food_Application\\Enums\\ErrorCode.cs",
               "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Enums\\ErrorCode.cs",
               "RelativeToolTip": "Food_Application\\Enums\\ErrorCode.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T20:10:13.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T16:46:31.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Profiles\\UserProfile.cs",
-              "RelativeDocumentMoniker": "Food_Application\\Profiles\\UserProfile.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Profiles\\UserProfile.cs",
-              "RelativeToolTip": "Food_Application\\Profiles\\UserProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Food_Application\\Models\\User.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Models\\User.cs",
+              "RelativeToolTip": "Food_Application\\Models\\User.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T20:12:12Z",
+              "WhenOpened": "2024-10-02T16:41:40.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginUserCommand.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Commands\\LoginUserCommand.cs",
+              "RelativeDocumentMoniker": "Food_Application\\CQRS\\Users\\Commands\\LoginUserCommand.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Commands\\LoginUserCommand.cs",
+              "RelativeToolTip": "Food_Application\\CQRS\\Users\\Commands\\LoginUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:40:44.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GetUserByNameQuery.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Queries\\GetUserByNameQuery.cs",
-              "RelativeDocumentMoniker": "Food_Application\\CQRS\\Users\\Queries\\GetUserByNameQuery.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Queries\\GetUserByNameQuery.cs",
-              "RelativeToolTip": "Food_Application\\CQRS\\Users\\Queries\\GetUserByNameQuery.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAARAAAA",
+              "Title": "VerifyAccountCommand.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Commands\\VerifyAccountCommand.cs",
+              "RelativeDocumentMoniker": "Food_Application\\CQRS\\Users\\Commands\\VerifyAccountCommand.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\CQRS\\Users\\Commands\\VerifyAccountCommand.cs",
+              "RelativeToolTip": "Food_Application\\CQRS\\Users\\Commands\\VerifyAccountCommand.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA/wB0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T19:59:37.954Z",
+              "WhenOpened": "2024-10-02T16:40:41.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Food_Application\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Food_Application\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Food_Application\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Food_Application\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwCsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T19:23:57.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T16:38:07.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VerifyEmailViewModel.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\ViewModels\\Users\\VerifyEmailViewModel.cs",
+              "RelativeDocumentMoniker": "Food_Application\\ViewModels\\Users\\VerifyEmailViewModel.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\ViewModels\\Users\\VerifyEmailViewModel.cs",
+              "RelativeToolTip": "Food_Application\\ViewModels\\Users\\VerifyEmailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T16:37:59.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\.env",
+              "RelativeDocumentMoniker": "Food_Application\\.env",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\Teams_Projects\\Food_Application\\Food_Application\\Food_Application\\.env",
+              "RelativeToolTip": "Food_Application\\.env",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-01T19:24:29.795Z"
             }
           ]
         }

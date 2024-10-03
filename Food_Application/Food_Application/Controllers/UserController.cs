@@ -42,6 +42,17 @@ namespace Food_Application.Controllers
             return Ok(ResultViewModel<string>.Sucess(result.Data));
         }
         [HttpPut]
+        public async Task<IActionResult> VerifyAccount(VerifyEmailViewModel viewModel)
+        {
+            var result = await _mediator.Send(viewModel.MapOne<VerifyAccountCommand>());
+            if (!result.IsSuccess)
+            {
+                return BadRequest();
+            }
+            return Ok(ResultViewModel<bool>.Sucess(result.Data,"Email Is Confirmed"));
+            //VerifyAccountCommand
+        }
+        [HttpPut]
         public async Task<IActionResult> ForgetPassword()
         {
             throw new NotImplementedException();

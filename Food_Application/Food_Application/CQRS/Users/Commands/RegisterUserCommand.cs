@@ -22,22 +22,26 @@ namespace Food_Application.CQRS.Users.Commands
         }
         public async Task<ResultDTO<int>> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
         {
-            var result = await _mediator.Send(new GetUserByEmailQuery(request.DTO.Email));
+            var result = await _mediator.Send(new IsEmailExistQuery(request.DTO.Email));
             if (result.IsSuccess) 
             {
                 throw new BusinessException(ErrorCode.EmailAlreadyExist, "Email is already Exists");
             }
-            result = await _mediator.Send(new GetUserByNameQuery(request.DTO.UserName));
+            result = await _mediator.Send(new IsUserNameExistQuery(request.DTO.UserName));
             if (result.IsSuccess)
             {
                 throw new BusinessException(ErrorCode.UserNameAlreadyExist, "User Name is already Exists");
             }
-            
+
             if (request.DTO.Password != request.DTO.ConfirmPassword) {
                 return ResultDTO<int>.Faliure(ErrorCode.PasswordsDontMatch,"Passwords don't match");
             }
             var user =  request.DTO.MapOne<User>();
             user.Password = BCrypt.Net.BCrypt.HashPassword(request.DTO.Password);
+            var otpCode = OTPGenerator.GenerateOTP();
+            user.OtpCode = otpCode;
+            user.OtpExpiry = DateTime.UtcNow.AddMinutes(30);
+            EmailHelper.SendEmail(user.Email, "OTP", otpCode);
             _userRepository.Add(user);
             _userRepository.SaveChanges();
             //send the otp to the email
